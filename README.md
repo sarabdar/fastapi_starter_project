@@ -180,13 +180,6 @@ The project includes example scheduled jobs in `app/cron_jobs/`:
 - `backup_critical_data()` - Backs up important data
 - `send_daily_notifications()` - Sends scheduled notifications
 
-## 🧪 Testing
-
-Run tests using pytest:
-
-```bash
-pytest
-```
 
 ## 🛡️ Security Best Practices
 
@@ -197,25 +190,5 @@ pytest
 - Use HTTPS in production
 - Keep dependencies up to date
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [FastAPI](https://fastapi.tiangolo.com/) for the amazing web framework
-- [SQLAlchemy](https://www.sqlalchemy.org/) for the ORM
-- [Alembic](https://alembic.sqlalchemy.org/) for database migrations
-- [Pydantic](https://pydantic-docs.helpmanual.io/) for data validation
-
----
 
 Built with ❤️ for developers who love clean, maintainable code.
